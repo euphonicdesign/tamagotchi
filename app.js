@@ -1,3 +1,6 @@
+const img = new Image();
+img.src = "./img/dog.png";
+
 class Dog {
     constructor(){
         this.hunger = 0;
@@ -70,8 +73,7 @@ const feedBtn = document.querySelector(".feed-btn");
 const playBtn = document.querySelector(".play-btn");
 const cleanBtn = document.querySelector(".clean-btn");
 
-const img = new Image();
-img.src = "./img/dog.png";
+
 
 const imgWidth = img.width;
 const imgHeight = img.height;
